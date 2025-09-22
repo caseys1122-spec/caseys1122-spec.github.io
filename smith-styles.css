@@ -1,0 +1,29 @@
+:root{
+  --ink: #333333;                /* text color */
+  --paper: #e6f0ff;              /* page background */
+  --brand-gold: #d4af37;         /* accent */
+  --space-2: 0.5rem;         /* spacing scale */
+}
+body{ color: var(--ink); background: var(--paper); }
+header { position: sticky; top: 0; background: var(--paper); border-bottom: 1px solid rgba(0,0,0,0.12); }
+}
+nav { display: flex; gap: var(--space-2); justify-content: center; padding: calc(var(--space-2) * 0.75) 0; }
+}
+.tagline {
+    font-style: italic;
+    color: #666;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:visited {
+    color: #800080; /* Classic purple */
+}
